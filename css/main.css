@@ -23,6 +23,12 @@ body {
 	margin-right: 20px;
 }
 
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+}
+
 .flex-container .logo{
 	width: 70px;
 	height: 70px;
@@ -46,3 +52,19 @@ body {
 .text-home{
 	font-size: 2.4em;
 }
+
+#services{
+	background-color: #f17c72;
+	text-align: center;
+	color: #fff;
+	padding:70px;
+}
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
