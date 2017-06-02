@@ -3,5 +3,46 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+}
+
+.menu .flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;/*no funciona*/
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+.text-home{
+	font-size: 2.4em;
 }
