@@ -84,9 +84,43 @@ a:hover{
 .box-services{
 	font-size: 1.2em;
 	font-weight: bold;
+
+}
+
+
+
+
+.work{
+	width: 100%;
+	height: 80%;
+	justify-content: center;
+ 	margin-top: 50px;
+
+}
+
+#container{
+	text-align: center;
+}
+
+.fotito{
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.fotos{
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
 	
 }
 
+.foto{
+	width: 25%;
+	height: 25%;
+
+}
 
 footer{
   text-align:center;
