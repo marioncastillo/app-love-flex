@@ -11,7 +11,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 0;
+	width: 100%;
 }
 
 .menu .flex-container{
@@ -19,14 +19,22 @@ body {
 }
 
 .logo-container{
-	margin-left: auto;/*no funciona*/
+	margin-left: auto;
 	margin-right: 20px;
 }
 
-
 .link{
-  font-weight: 700;
+  font-weight: 700px;
   padding: 21px;
+  display: inline-block;
+}
+a{
+	color: #373b47;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E95853;
 }
 
 .flex-container .logo{
@@ -53,6 +61,16 @@ body {
 	font-size: 2.4em;
 }
 
+.btn-home{
+	background-color: rgb(46,204,113);
+	font-size: 18px;
+	padding: 15px;
+	border-radius: 5px;
+	width: 10%;
+	text-align: center;
+	color: white;
+
+}
 #services{
 	background-color: #f17c72;
 	text-align: center;
@@ -66,5 +84,7 @@ body {
 .box-services{
 	font-size: 1.2em;
 	font-weight: bold;
+	
 }
+
 
